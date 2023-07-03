@@ -1,0 +1,128 @@
+.Main {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+
+    &-about {
+        margin-top: 20px;
+
+        img {
+            width: 240px;
+            height: 240px;
+        }
+
+        &-title {
+            margin-top: 30px;
+
+            h4 {
+                padding-bottom: 10px;
+            }
+
+            h3 {
+                padding-bottom: 10px;
+            }
+
+            button {
+                width: 100%;
+                height: 36px;
+                border: 1px solid rgba(27, 31, 35, .2);
+                background-color: #eff3f6;
+                background: none;
+                background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+                border-radius: 3px;
+            }
+        }
+
+        &-desc {
+            margin-top: 16px;
+        }
+    }
+
+    &-projects {
+        width: 100%;
+        margin-left: 40px;
+        margin-top: 40px;
+
+        &-link {
+            display: flex;
+            justify-content: space-between;
+
+
+            a {
+                color: #586069;
+                text-decoration: none;
+            }
+
+
+        }
+
+        .Section {
+            margin-top: 20px;
+            display: flex;
+
+            justify-content: space-between;
+
+            a {
+                font-size: 14px;
+                color: #586069;
+                text-decoration: none;
+            }
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+
+        &-bar {
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 350px;
+            height: 100px;
+            margin-right: 10px;
+            margin-top: 20px;
+            position: relative;
+
+            .up {
+                display: flex;
+
+                .right {
+                    svg {
+                        position: absolute;
+                        right: 10px;
+
+                    }
+                }
+
+                a{
+                    text-decoration: none;
+                }
+            }
+            .down{
+                margin-top: 40px;
+                margin-left: 20px;
+                display: flex;
+                align-items: center;
+               
+                
+                span{
+                background-color: #563d7c;
+                height: 12px;
+                width: 12px;
+                border-radius: 50%;
+                display: inline-block;
+               
+            }
+               p{
+                margin-left: 5px;
+               }
+            }
+
+        }
+
+
+    }
+}
